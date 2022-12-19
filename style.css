@@ -1,0 +1,33 @@
+div {
+  position: relative;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  height: 51px;
+  margin: 100px auto;
+  border: 1px solid darkgray;
+  border-right: none;
+  border-radius: 4px;
+  text-align: e;
+  align-items: center;
+  color: darkgray;
+  font-size: 14px;
+  line-height: -2em;
+  cursor: pointer;
+}
+
+div:after {
+  content: "";
+  position: absolute;
+  top: 52%;
+  right: -17px;
+  width: 38px;
+  height: 36px;
+  margin-top: -20px;
+  border: 1px solid darkgray;
+  border-left: 2px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-radius: 4px;
+  transform: rotate(47deg);
+  z-index: -1;
+}
